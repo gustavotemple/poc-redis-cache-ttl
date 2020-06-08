@@ -1,10 +1,12 @@
 # PoC Redis cache TTL
-Better alternative to the `spring.cache.redis.time-to-live` configuration.
+Multi `RedisCacheManager` approach, better alternative to the `spring.cache.redis.time-to-live` configuration.
 
 ### Build & Run:
 + `docker rm -v <OLD_CONTAINERS>`
 + `./mvnw clean package dockerfile:build`
 + `docker-compose up`
+
+### References:
 
 https://stackoverflow.com/questions/51269477/java-spring-redis-set-time-to-live-with-annotation/51308129
 
