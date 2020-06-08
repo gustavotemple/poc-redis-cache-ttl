@@ -1,4 +1,5 @@
 # PoC Redis cache TTL
+Better alternative to the `spring.cache.redis.time-to-live` configuration.
 
 ### Build & Run:
 + `docker rm -v <OLD_CONTAINERS>`
